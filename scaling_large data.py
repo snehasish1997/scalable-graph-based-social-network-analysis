@@ -1,4 +1,4 @@
-# Example setup (This is pseudo-code to guide usage; Spark configuration required)
+
 
 from pyspark.sql import SparkSession
 from graphframes import GraphFrame
