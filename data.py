@@ -7,8 +7,8 @@ from itertools import combinations
 import numpy as np
 
 # Load the dataset
-edges = pd.read_csv('social_network_edges.csv')  # Adjust the path to your edge list file
-nodes = pd.read_csv('social_network_nodes.csv')  # Adjust the path to your node list file
+edges = pd.read_csv('social_network_edges.csv')  # Adjust the path for edge list file
+nodes = pd.read_csv('social_network_nodes.csv')  # Adjust the path for node list file
 
 # Display basic information about the dataset
 print("Edges:\n", edges.head())
