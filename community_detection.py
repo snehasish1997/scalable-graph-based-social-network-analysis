@@ -1,4 +1,4 @@
-# Detect communities using Louvain Modularity (or use any scalable community detection if dataset is very large)
+# Detect communities using Louvain Modularity 
 partition = community_louvain.best_partition(G.to_undirected())
 
 # Assign community labels as node attributes
